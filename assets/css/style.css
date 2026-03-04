@@ -1,0 +1,31 @@
+body {
+  font-family: Georgia, serif;
+  max-width: 750px;
+  margin: 40px auto;
+  line-height: 1.6;
+  color: #111;
+}
+
+a {
+  color: #000;
+  text-decoration: underline;
+}
+
+nav a {
+  margin-right: 10px;
+}
+
+hr {
+  margin: 20px 0;
+}
+
+#stress-container {
+  width: 100%;
+  height: 20px;
+  background-color: #eee;
+}
+
+#stress-bar {
+  height: 100%;
+  width: 0;
+}
