@@ -12,20 +12,28 @@ Speaking of the lyrics there are some important ones I think that should be poin
 Here's my english translation that tries to keep it as faithful to the original Punjabi as much as possible.
 
 [Chorus: AP]
+
 Raatan lambiyan na eh mukne te aunde
 _The nights are long, and they don't seem to end_
+
 Andhere aan na meri chaldi ladai
 _In the darkness, I continue having fights_
+
 Inna shisheyan vichon vekhan main kaun ae
 _In these mirrors, I look to find who I truly am_
+
 Daaru meri bani ae dawai
 _Alcohol has become my medicine_
+
 Raatan lambiyan na eh mukne te aunde
 _The nights are long, and they don't seem to end_
+
 Andhere aan na meri chaldi ladayi
 _In the darkness, I continue having fights_
+
 Inna shisheyan vichon vekhan main kaun ae
 _In these mirrors, I look to find who I truly am_
+
 Daaru meri bani ae dawai
 _Alcohol has become my medicine_
 
