@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
       3 * tasks +
       2 * meetings;
 
-  console.log("Computed stress:", currentStress); // DEBUG
+  console.log("Computed stress:", currentStress);
 
   const normalized = Math.min(currentStress, 100);
 
