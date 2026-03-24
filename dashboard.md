@@ -26,15 +26,21 @@ permalink: /stress/
 document.addEventListener("DOMContentLoaded", function () {
 
   const current = {{ site.data.current_stress | jsonify }};
-  const history = {{ site.data.stress_history | jsonify }};
+
+  console.log("Current data:", current); // DEBUG
+
+  const emails = Number(current.emails) || 0;
+  const tasks = Number(current.tasks_due_3_days) || 0;
+  const meetings = Number(current.meetings_this_week) || 0;
 
   const currentStress =
-      0.5 * current.emails +
-      3 * current.tasks_due_3_days +
-      2 * current.meetings_this_week;
+      0.5 * emails +
+      3 * tasks +
+      2 * meetings;
 
-  // const normalized = Math.min(currentStress, 100);
-  const normalized = 60;
+  console.log("Computed stress:", currentStress); // DEBUG
+
+  const normalized = Math.min(currentStress, 100);
 
   const bar = document.getElementById("stress-bar");
   const label = document.getElementById("stress-label");
