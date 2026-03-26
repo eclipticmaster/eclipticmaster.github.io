@@ -64,6 +64,10 @@ def get_emails_today(service):
 
 
 def update_json(unread_emails, emails):
+    """
+    :param unread_emails, emails:
+    :return updates emails and unread emails to actual values inside current_stress.json:
+    """
     filepath = "current_stress.json"
 
     with open(filepath, "r") as f:

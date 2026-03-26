@@ -1,4 +1,4 @@
-fetch('/_data/stress.json')
+fetch('/_data/current_stress.json')
   .then(response => response.json())
   .then(data => {
 
@@ -8,7 +8,7 @@ fetch('/_data/stress.json')
       3 * tasks +
       2 * meetings;
 
-    const normalized = Math.min(stress, 100);
+    const normalized = Math.min(currentStress, 100);
 
     const bar = document.getElementById("stress-bar");
     const label = document.getElementById("stress-label");
