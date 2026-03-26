@@ -29,6 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   console.log("Current data:", current); // DEBUG
 
+  const unread_emails = Number(current.unread_emails) || 0;
   const emails = Number(current.emails) || 0;
   const tasks = Number(current.tasks_due_3_days) || 0;
   const meetings = Number(current.meetings_this_week) || 0;
