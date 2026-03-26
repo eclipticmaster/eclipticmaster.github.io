@@ -2,10 +2,11 @@ fetch('/_data/stress.json')
   .then(response => response.json())
   .then(data => {
 
-    const stress =
-      0.5 * data.emails +
-      3 * data.tasks_due_3_days +
-      2 * data.meetings_this_week;
+    const currentStress =
+      0.3 * unread_emails +
+      1.5 * emails +
+      3 * tasks +
+      2 * meetings;
 
     const normalized = Math.min(stress, 100);
 

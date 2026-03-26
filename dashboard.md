@@ -34,7 +34,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const meetings = Number(current.meetings_this_week) || 0;
 
   const currentStress =
-      0.5 * emails +
+      0.3 * unread_emails +
+      1.5 * emails +
       3 * tasks +
       2 * meetings;
 
