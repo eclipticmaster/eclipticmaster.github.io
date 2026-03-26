@@ -3,14 +3,8 @@ layout: default
 title: Home
 ---
 
-## If you enjoy Punjabi music or want to learn more:
+## Click away for posts
 
-{% for post in site.posts.punjabi %}
-- [{{ post.title }}]({{ post.url }}) — {{ post.date | date: "%B %d, %Y" }}
-{% endfor %}
-
-## If you want to learn how to do other things:
-
-{% for post in site.posts.funessays %}
+{% for post in site.posts %}
 - [{{ post.title }}]({{ post.url }}) — {{ post.date | date: "%B %d, %Y" }}
 {% endfor %}
