@@ -3,6 +3,23 @@ layout: post
 title: "A Breakdown of Raatan Lambiyan - AP Dhillon, Shinda Kahlon"
 ---
 
+<div class="translation-block">
+  <details open>
+    <summary class="translation-header">Chorus: AP</summary>
+
+    <table class="translation-table">
+      <tr>
+        <td class="translation-pa">Raatan lambiyan na eh mukne te aunde</td>
+        <td class="translation-en">The nights are long, and they don't seem to end</td>
+      </tr>
+      <tr>
+        <td class="translation-pa">Andhere aan na meri chaldi ladai</td>
+        <td class="translation-en">In the darkness, I continue having fights</td>
+      </tr>
+    </table>
+  </details>
+</div>
+
 Top tier song that brings a fresh sound to the Punjabi music scene. AP Dhillon has always tried to bring new sounds to his music which is something I really appreciate, starting with songs like Majhail and Excuses in 2020, by producers Manni Sandhu and Intense, respectively. This song is produced by Mike Tompa and Luca Mauti, of which the latter has been traveling with AP and playing guitar with him. His influence can be clearly seen in the final product with the beginning and continuous guitar performance, and adds a depth of dimension to AP's vocals (side note: Inspiration from Karan Aujla and Ikky's team???).
 
 One hero for sure is Shinda's backing vocals, which amplify the song even more. The high notes he's able to hit during the chorus are quite impressive, which have been seen previously on songs like With You, but his turn comes to shine with specifically with the verse. With vocals unlike anything I've heard from him, this is one of his best verses to date. His lyrics are still absolutely unparalleled but he has really stepped up his game here and I hope he continues in this fashion with AP.

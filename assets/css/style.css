@@ -74,3 +74,67 @@ hr {
 .content-box p {
   margin-bottom: 1em;
 }
+
+/* ===== Translation Blocks ===== */
+
+.translation-block {
+  margin: 2rem 0;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #e5e5e5;
+}
+
+.translation-header {
+  background: #f7f7f7;
+  padding: 0.75rem 1rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.translation-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.translation-table td {
+  padding: 0.6rem 1rem;
+  vertical-align: top;
+}
+
+.translation-pa {
+  width: 50%;
+  font-weight: 500;
+}
+
+.translation-en {
+  width: 50%;
+  color: #555;
+}
+
+.translation-table tr:not(:last-child) {
+  border-bottom: 1px solid #eee;
+}
+
+.translation-details summary {
+  cursor: pointer;
+  padding: 0.75rem 1rem;
+  background: #fafafa;
+  font-weight: 500;
+  border-top: 1px solid #eee;
+}
+
+.translation-details[open] summary {
+  background: #f0f0f0;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .translation-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .translation-en {
+    margin-bottom: 1rem;
+  }
+}
