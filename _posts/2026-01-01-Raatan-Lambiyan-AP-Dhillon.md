@@ -61,3 +61,16 @@ Here's my english translation that tries to keep it as faithful to the original 
 {% endcapture %}
 
 {% include translation-block.html title="Verse 2: Shinda" content=verse2 %}
+
+{% capture chorus3 %}
+{% include line.html pa="Raatan lambiyan na eh mukne te aunde" en="The nights are long, and they don't seem to end" %}
+{% include line.html pa="Andhere aan na meri chaldi ladai" en="In the darkness, I continue having fights" %}
+{% include line.html pa="Inna shisheyan vichon vekhan main kaun ae" en="In these mirrors, I look to find who I truly am" %}
+{% include line.html pa="Daaru meri bani ae dawai" en="Alcohol has become my medicine" %}
+{% include line.html pa="Raatan lambiyan na eh mukne te aunde" en="The nights are long, and they don't seem to end" %}
+{% include line.html pa="Andhere aan na meri chaldi ladayi" en="In the darkness, I continue having fights" %}
+{% include line.html pa="Inna shisheyan vichon vekhan main kaun ae" en="In these mirrors, I look to find who I truly am" %}
+{% include line.html pa="Daaru meri bani ae dawai" en="Alcohol has become my medicine" %}
+{% endcapture %}
+
+{% include translation-block.html title="Chorus: AP and Shinda" content=chorus3 %}

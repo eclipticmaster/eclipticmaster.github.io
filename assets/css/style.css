@@ -78,58 +78,61 @@ hr {
 /* ===== Translation Blocks ===== */
 
 .translation-block {
-  margin: 2rem 0;
-  border-radius: 12px;
+  margin: 2.5rem 0;
+  border-radius: 14px;
   overflow: hidden;
-  border: 1px solid #e5e5e5;
+  border: 1px solid #e2e8f0;
   background: #ffffff;
 }
 
+/* Section title (Chorus, Verse, etc.) */
 .translation-header {
-  background: #f4f6f8;
-  padding: 0.75rem 1rem;
-  font-weight: 600;
-  font-size: 1.1rem;
+  background: #f1f5f9;
+  padding: 1rem 1.25rem;
+  font-weight: 700;
+  font-size: 1.25rem; /* BIGGER title */
+  letter-spacing: 0.3px;
 }
 
+/* Table */
 .translation-table {
   width: 100%;
   border-collapse: collapse;
+  table-layout: fixed;
 }
 
+/* Cells */
 .translation-table td {
-  padding: 0.65rem 1rem;
+  padding: 0.9rem 1.25rem;
   vertical-align: top;
+  font-size: 0.95rem;
+  line-height: 1.5;
 }
 
-/* Punjabi (primary text) */
+/* Punjabi column */
 .translation-pa {
   width: 50%;
-  font-weight: 500;
-  color: #111; /* strong */
+  font-weight: 600;
+  color: #0f172a;
+  border-right: 2px solid #e2e8f0; /* 🔥 vertical divider */
 }
 
-/* English (secondary tone) */
+/* English column */
 .translation-en {
   width: 50%;
-  color: #4a5568; /* soft gray-blue */
+  color: #475569;
   font-style: italic;
+  padding-left: 1.5rem; /* spacing from divider */
 }
 
 /* Row separation */
-.translation-table tr:not(:last-child) {
-  border-bottom: 1px solid #edf2f7;
+.translation-table tr {
+  border-bottom: 1px solid #f1f5f9;
 }
 
 /* Hover effect */
 .translation-table tr:hover {
-  background: #f9fafb;
-}
-
-/* Collapsible */
-.translation-details summary {
-  cursor: pointer;
-  font-weight: 500;
+  background: #f8fafc;
 }
 
 /* Mobile */
@@ -137,9 +140,11 @@ hr {
   .translation-table td {
     display: block;
     width: 100%;
+    border-right: none;
   }
 
   .translation-en {
+    padding-left: 1.25rem;
     margin-bottom: 1rem;
   }
 }
