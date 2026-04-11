@@ -82,10 +82,11 @@ hr {
   border-radius: 12px;
   overflow: hidden;
   border: 1px solid #e5e5e5;
+  background: #ffffff;
 }
 
 .translation-header {
-  background: #f7f7f7;
+  background: #f4f6f8;
   padding: 0.75rem 1rem;
   font-weight: 600;
   font-size: 1.1rem;
@@ -97,34 +98,38 @@ hr {
 }
 
 .translation-table td {
-  padding: 0.6rem 1rem;
+  padding: 0.65rem 1rem;
   vertical-align: top;
 }
 
+/* Punjabi (primary text) */
 .translation-pa {
   width: 50%;
   font-weight: 500;
+  color: #111; /* strong */
 }
 
+/* English (secondary tone) */
 .translation-en {
   width: 50%;
-  color: #555;
+  color: #4a5568; /* soft gray-blue */
+  font-style: italic;
 }
 
+/* Row separation */
 .translation-table tr:not(:last-child) {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #edf2f7;
 }
 
+/* Hover effect */
+.translation-table tr:hover {
+  background: #f9fafb;
+}
+
+/* Collapsible */
 .translation-details summary {
   cursor: pointer;
-  padding: 0.75rem 1rem;
-  background: #fafafa;
   font-weight: 500;
-  border-top: 1px solid #eee;
-}
-
-.translation-details[open] summary {
-  background: #f0f0f0;
 }
 
 /* Mobile */
