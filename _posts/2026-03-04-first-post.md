@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Motivation"
+categories: [meta]
 ---
 
 This website is a long-term project documenting various things related to my life, sometimes also

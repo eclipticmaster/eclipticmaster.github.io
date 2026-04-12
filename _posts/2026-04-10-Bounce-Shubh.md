@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A Breakdown of Bounce - Shubh"
+categories: [translations]
 ---
 
 # Hello

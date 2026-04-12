@@ -1,22 +1,27 @@
 ---
-layout: post
+layout: translation
 title: "A Breakdown of Raatan Lambiyan - AP Dhillon, Shinda Kahlon"
+date: 2026-01-01
+categories: [translations]
+
+abstract: >
+  Top tier song that brings a fresh sound to the Punjabi music scene. AP Dhillon has always tried to bring new sounds to his music which is something I really appreciate, starting with songs like Majhail and Excuses in 2020, by producers Manni Sandhu and Intense, respectively. This song is produced by Mike Tompa and Luca Mauti, of which the latter has been traveling with AP and playing guitar with him. His influence can be clearly seen in the final product with the beginning and continuous guitar performance, and adds a depth of dimension to AP's vocals (side note: Inspiration from Karan Aujla and Ikky's team???).
+  
+  One hero for sure is Shinda's backing vocals, which amplify the song even more. The high notes he's able to hit during the chorus are quite impressive, which have been seen previously on songs like With You, but his turn comes to shine with specifically with the verse. With vocals unlike anything I've heard from him, this is one of his best verses to date. His lyrics are still absolutely unparalleled but he has really stepped up his game here and I hope he continues in this fashion with AP. 
+  
+  Speaking of the lyrics there are some important ones I think that should be pointed out here. Interpretatively, the second line from the chorus _Andhere aan na meri chaldi ladai_, translating to _In the darkness, I continue having fights_, one of the important parts is noting that _ladai_ could translate to both a noun and a verb. Grammatically, it would be a noun, but because it is poetry, it is entirely possible that this is a verb, meaning a fight or to fight, respectively. I would think that it is the latter, because the general theme of the song is finding yourself and really feeling one's thoughts. This would then allow for a more contextual understanding to be that during the night, he (AP) fights with himself to figure out who he truly is.
+  
+  Here's my english translation that tries to keep it as faithful to the original Punjabi as much as possible.
 ---
-Top tier song that brings a fresh sound to the Punjabi music scene. AP Dhillon has always tried to bring new sounds to his music which is something I really appreciate, starting with songs like Majhail and Excuses in 2020, by producers Manni Sandhu and Intense, respectively. This song is produced by Mike Tompa and Luca Mauti, of which the latter has been traveling with AP and playing guitar with him. His influence can be clearly seen in the final product with the beginning and continuous guitar performance, and adds a depth of dimension to AP's vocals (side note: Inspiration from Karan Aujla and Ikky's team???).
 
-One hero for sure is Shinda's backing vocals, which amplify the song even more. The high notes he's able to hit during the chorus are quite impressive, which have been seen previously on songs like With You, but his turn comes to shine with specifically with the verse. With vocals unlike anything I've heard from him, this is one of his best verses to date. His lyrics are still absolutely unparalleled but he has really stepped up his game here and I hope he continues in this fashion with AP.
-
-Speaking of the lyrics there are some important ones I think that should be pointed out here. Interpretatively, the second line from the chorus Andhere aan na meri chaldi ladai, translating to In the darkness, I continue having fights, one of the important parts is noting that ladai could translate to both a noun and a verb. Grammatically, it would be a noun, but because it is poetry, it is entirely possible that this is a verb, meaning a fight or to fight, respectively. I would think that it is the latter, because the general theme of the song is finding yourself and really feeling one's thoughts. This would then allow for a more contextual understanding to be that during the night, he (AP) fights with himself to figure out who he truly is.
-
-Here's my english translation that tries to keep it as faithful to the original Punjabi as much as possible.
 
 {% capture chorus1 %}
 {% include line.html pa="Raatan lambiyan na eh mukne te aunde" en="The nights are long, and they don't seem to end" %}
-{% include line.html pa="Andhere aan na meri chaldi ladai" en="In the darkness, I continue having fights" %}
+{% include line.html pa="Andhere aan na meri chaldi ladai" en="In the darkness, I continue having to fight" %}
 {% include line.html pa="Inna shisheyan vichon vekhan main kaun ae" en="In these mirrors, I look to find who I truly am" %}
 {% include line.html pa="Daaru meri bani ae dawai" en="Alcohol has become my medicine" %}
 {% include line.html pa="Raatan lambiyan na eh mukne te aunde" en="The nights are long, and they don't seem to end" %}
-{% include line.html pa="Andhere aan na meri chaldi ladayi" en="In the darkness, I continue having fights" %}
+{% include line.html pa="Andhere aan na meri chaldi ladayi" en="In the darkness, I continue having to fight" %}
 {% include line.html pa="Inna shisheyan vichon vekhan main kaun ae" en="In these mirrors, I look to find who I truly am" %}
 {% include line.html pa="Daaru meri bani ae dawai" en="Alcohol has become my medicine" %}
 {% endcapture %}
@@ -38,11 +43,11 @@ Here's my english translation that tries to keep it as faithful to the original 
 
 {% capture chorus2 %}
 {% include line.html pa="Raatan lambiyan na eh mukne te aunde" en="The nights are long, and they don't seem to end" %}
-{% include line.html pa="Andhere aan na meri chaldi ladai" en="In the darkness, I continue having fights" %}
+{% include line.html pa="Andhere aan na meri chaldi ladai" en="In the darkness, I continue having to fight" %}
 {% include line.html pa="Inna shisheyan vichon vekhan main kaun ae" en="In these mirrors, I look to find who I truly am" %}
 {% include line.html pa="Daaru meri bani ae dawai" en="Alcohol has become my medicine" %}
 {% include line.html pa="Raatan lambiyan na eh mukne te aunde" en="The nights are long, and they don't seem to end" %}
-{% include line.html pa="Andhere aan na meri chaldi ladayi" en="In the darkness, I continue having fights" %}
+{% include line.html pa="Andhere aan na meri chaldi ladayi" en="In the darkness, I continue having to fight" %}
 {% include line.html pa="Inna shisheyan vichon vekhan main kaun ae" en="In these mirrors, I look to find who I truly am" %}
 {% include line.html pa="Daaru meri bani ae dawai" en="Alcohol has become my medicine" %}
 {% endcapture %}
@@ -64,11 +69,11 @@ Here's my english translation that tries to keep it as faithful to the original 
 
 {% capture chorus3 %}
 {% include line.html pa="Raatan lambiyan na eh mukne te aunde" en="The nights are long, and they don't seem to end" %}
-{% include line.html pa="Andhere aan na meri chaldi ladai" en="In the darkness, I continue having fights" %}
+{% include line.html pa="Andhere aan na meri chaldi ladai" en="In the darkness, I continue having to fight" %}
 {% include line.html pa="Inna shisheyan vichon vekhan main kaun ae" en="In these mirrors, I look to find who I truly am" %}
 {% include line.html pa="Daaru meri bani ae dawai" en="Alcohol has become my medicine" %}
 {% include line.html pa="Raatan lambiyan na eh mukne te aunde" en="The nights are long, and they don't seem to end" %}
-{% include line.html pa="Andhere aan na meri chaldi ladayi" en="In the darkness, I continue having fights" %}
+{% include line.html pa="Andhere aan na meri chaldi ladayi" en="In the darkness, I continue having to fight" %}
 {% include line.html pa="Inna shisheyan vichon vekhan main kaun ae" en="In these mirrors, I look to find who I truly am" %}
 {% include line.html pa="Daaru meri bani ae dawai" en="Alcohol has become my medicine" %}
 {% endcapture %}
