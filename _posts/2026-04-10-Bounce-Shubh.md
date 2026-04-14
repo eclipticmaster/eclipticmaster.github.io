@@ -1,10 +1,14 @@
 ---
-layout: post
+layout: translation
 title: "A Breakdown of Bounce - Shubh"
 categories: [translations]
+
+abstract: > 
+  Shubh is an absolute GOAT with his flow.
+
 ---
 
-# Hello
+# Translation
 
 Tere utte dullge
 Jattan de kaake

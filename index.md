@@ -28,6 +28,18 @@ title: Home
 </div>
 
 <div class="home-section">
+  <h2>Instagram Posts</h2>
+  <ul>
+    {% for post in site.categories.posts %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <span class="post-date">— {{ post.date | date: "%B %d, %Y" }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="home-section">
   <h2>Fundamentals</h2>
   <ul>
     {% for post in site.categories.fundamentals %}

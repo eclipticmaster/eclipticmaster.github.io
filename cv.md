@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: CV
 permalink: /cv/
 ---
@@ -32,7 +32,14 @@ Check or uncheck these to modify the bio:
 <input type="checkbox" id="isformal"  checked onchange="updateAll()" /> Use formal titles?
 <br />
 
+<input type="checkbox" id="isfunding"  checked onchange="updateAll()" /> Include funding? 
+<br />
+
 <input type="checkbox" id="iseducation"  checked onchange="updateAll()" /> Include education? 
+<br />
+
+<input type="checkbox" id="ishobbies"  checked onchange="updateAll()" /> Include 
+hobbies?
 <br />
 
 <input type="checkbox" id="issocial"  checked onchange="updateAll()" /> Include 
@@ -45,12 +52,18 @@ social media info?
 <p>
 <span name="IntroName">INTRONAME</span> will be pursuing his Ph.D. in electrical engineering (to be updated on June 29th, 2026) from the University of California Los Angeles (UCLA). 
 
-At UCLA, <span name="NextName">NEXTNAME</span> is an NSF Quantum Fellow and receives funding from the Defense Advanced Research Projects Agency (DARPA).
+<span name="Funding">
+At UCLA, <span name="NextName">NEXTNAME</span> receives funding from the Defense Advanced Research Projects Agency (DARPA) and the National Science Foundation (NSF) as a part of a quantum fellowship.
+</span>
 
 <span name="Education"> 
-<span name="NextName">NEXTNAME</span> will (to be updated on May 18th, 2026) receive a B.A. and M.S. (2026) from the University of Pennsylvania in physics.
+<span name="NextName">NEXTNAME</span> will (to be updated on May 18th, 2026) receive a B.A. and M.S. (2026) from the University of Pennsylvania (Penn) in physics.
 </span>
 </p>
+
+<span name="Hobbies"> 
+<span name="NextName">NEXTNAME</span> takes part in being an event supervisor and running tournaments for Science Olympiad. He has written tests for every single event you can think of except for the bio events. On the side, he enjoys playing and watching cricket, previously for the Club team at Penn and is looking to join a team in LA.
+</span>
 
 <p>
 <span name="Social">
@@ -64,7 +77,9 @@ and occasionally writes about life and other cool things at
 
 // Interface elements
 var IsFormal = document.getElementById("isformal") ;
-var IsEducation = document.getElementById("iseducation") ; 
+var IsFunding = document.getElementById("isfunding") ;
+var IsEducation = document.getElementById("iseducation") ;
+var IsHobbies = document.getElementById("ishobbies")
 var IsSocial = document.getElementById("issocial") ; 
 
 
@@ -95,7 +110,7 @@ function refresh() {
 }
 
 function setSpoken() {
-  window.location.hash = "isformal=0&isfocus=0&isfunders=0&isbertrand=0&iscstechlit=0&iscsbackground=0&iseducation=0&issocial=0" ;
+  window.location.hash = "isformal=0&isfunding=0&ishobbies=0&iseducation=0&issocial=0" ;
   refresh() ;
 }
 
@@ -114,7 +129,9 @@ function parseHash() {
     }
 
   IsFormal.checked = hash['isformal'] == "1" ? true : false ;
+  IsFunding.checked = hash['isfunding'] == "1" ? true : false ;
   IsEducation.checked = hash['iseducation'] == "1" ? true : false ;
+  IsHobbies.checked = hash['iseducation'] == "1" ? true : false ;
   IsSocial.checked = hash['issocial'] == "1" ? true : false ;
 
   updateAll() ;
@@ -136,6 +153,15 @@ function updateAll() {
     setAll("NextName",'Manas') ;
   }
 
+  if (IsFunding.checked) {
+    hashParts['isfunding'] = "1" ;
+    setAllVisibility("Funding", true); 
+
+  } else {
+    hashParts['isfunding'] = "0"; 
+    setAllVisibility("Funding", false); 
+  }
+
   if (IsEducation.checked) {
     hashParts['iseducation'] = "1" ;
     setAllVisibility("Education", true); 
@@ -143,6 +169,15 @@ function updateAll() {
   } else {
     hashParts['iseducation'] = "0"; 
     setAllVisibility("Education", false); 
+  }
+
+  if (IsHobbies.checked) {
+    hashParts['ishobbies'] = "1" ;
+    setAllVisibility("Hobbies", true); 
+
+  } else {
+    hashParts['ishobbies'] = "0"; 
+    setAllVisibility("Hobbies", false); 
   }
 
   if (IsSocial.checked) {
